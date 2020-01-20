@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Trapesium">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="149dp">
+
+        <TextView
+            android:id="@+id/sisi1Label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sisi 1" />
+
+        <EditText
+            android:id="@+id/sisi1Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/sisi2Label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sisi 2" />
+
+        <EditText
+            android:id="@+id/sisi2Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/heightLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tinggi" />
+
+        <EditText
+            android:id="@+id/heightInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasil" />
+
+        <TextView
+            android:id="@+id/resultLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Luas : " />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

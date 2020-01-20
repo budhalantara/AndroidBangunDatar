@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.bangundatar.JajaranGenjangActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sisi Alas" />
+
+            <EditText
+                android:id="@+id/etSisiAlas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sisi Miring" />
+
+            <EditText
+                android:id="@+id/etSisiMiring"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tinggi" />
+
+            <EditText
+                android:id="@+id/etTinggi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Note : \nLuas = inputkan Sisi Alas dan Tinggi
+        \nKeliling = inputkan Sisi Alas dan Sisi Miring"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnHitung"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:text="Hitung" />
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:text="Reset" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:text="Hasil : "/>
+
+    <TextView
+        android:id="@+id/tvHasilLuas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Luas"/>
+    <TextView
+        android:id="@+id/tvHasilKeliling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Keliling"/>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bangundatar.MainActivity">
+
+    <Button
+        android:id="@+id/btnPersegiPanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Persegi Panjang" />
+    <Button
+        android:id="@+id/btnJajaranGenjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jajaran Genjang" />
+    <Button
+        android:id="@+id/btnTrapesium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trapesium" />
+    <Button
+        android:id="@+id/btnPersegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Persegi" />
+    <Button
+        android:id="@+id/btnBelahKetupat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Belah Ketupat" />
+    <Button
+        android:id="@+id/btnLingkaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lingkaran" />
+    <Button
+        android:id="@+id/btnLayangLayang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layang Layang" />
+    <Button
+        android:id="@+id/btnSegitiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Segitiga" />
+
+</LinearLayout>
